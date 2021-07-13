@@ -324,7 +324,6 @@ header a {
   margin: 5px;
 }
 
-
 /* SECTION APP */
 
 .app {
@@ -347,4 +346,60 @@ header a {
 
 .app-texto p {
   font-size: 24px;
+}
+
+/* SECTION CONTACTO */
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.contacto h2 {
+  font-size: 48px;
+}
+
+.contacto h3 {
+  font-size: 32px;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.contacto form input {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  border: none;
+  margin: 10px;
+  width: 500px;
+  height: 50px;
+  padding: 15px;
+}
+
+.contacto textarea {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  border: none;
+  margin: 10px;
+  width: 500px;
+  height: 200px;
+  padding: 15px;
+}
+
+.contacto textarea:focus,
+.contacto input:focus {
+  font-family: "Noto Sans", sans-serif;
+  background: rgb(195, 195, 195);
+  outline: none;
+}
+
+.contacto button {
+  width: 200px;
 }
