@@ -409,7 +409,7 @@ header a {
 
 .social {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 10px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -429,4 +429,30 @@ header a {
 
 .social a:hover {
   text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.footer h2 {
+  color: #171717;
+  font-size: 16px;
+}
+
+.footer h2 a {
+  color: #e70a4d;
+  text-decoration: none;
+}
+
+.footer h2 a:hover {
+  color: #970632;
 }
