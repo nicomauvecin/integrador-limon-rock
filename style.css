@@ -282,7 +282,7 @@ header a {
 .info-util {
   display: flex;
   flex-direction: column;
-  margin: 0 300px;
+  margin: 30px;
 }
 
 .contenedor-info {
@@ -293,7 +293,7 @@ header a {
 }
 
 .info-util h2 {
-  margin: 30px 15px 0 0;
+  margin: 10px;
   font-size: 48px;
   text-align: center;
 }
@@ -322,4 +322,29 @@ header a {
   font-size: 18px;
   color: #171717;
   margin: 5px;
+}
+
+
+/* SECTION APP */
+
+.app {
+  background: #e70a4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.app-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-texto h2 {
+  font-size: 48px;
+}
+
+.app-texto p {
+  font-size: 24px;
 }
