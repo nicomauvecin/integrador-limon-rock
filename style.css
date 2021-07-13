@@ -1,6 +1,6 @@
 /* HEADER */
 
-header {
+.menu {
   display: grid;
   grid-template-columns: 1fr 200px 1fr;
   align-items: center;
@@ -8,10 +8,14 @@ header {
   /* background: #DFD633; */
 }
 
-header a {
+.menu a {
   font-size: 16px;
   margin: 10px;
   text-decoration: none;
+}
+
+.toggle {
+  display: none;
 }
 
 .menu-list {
@@ -414,7 +418,7 @@ header a {
   justify-content: space-between;
 }
 
-.social a button{
+.social a button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -455,4 +459,154 @@ header a {
 
 .footer h2 a:hover {
   color: #970632;
+}
+
+@media (max-width: 1000px) {
+
+  /* MENU */
+
+  .menu {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    grid-template-areas:
+      "toggle sesion"
+      "menu-list menu-list";
+    align-items: center;
+  }
+
+  .menu .logo-nav {
+    display: none;
+  }
+
+  .contenedor-toggle a {
+    font-size: 32px;
+    grid-area: toggle;
+    display: flex;
+  }
+
+  .menu-list {
+    position: relative;
+    grid-area: menu-list;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .open {
+    display: flex;
+  }
+
+  .menu-list a {
+    font-size: 24px;
+  }
+
+  .sesion-nav {
+    grid-area: sesion;
+  }
+
+  /* SECTION EXPERIENCIA LIMÓN */
+
+  .experiencia-limon {
+    flex-direction: column;
+    
+  }
+
+  .experiencia-limon .contenedor {
+    align-items: center;
+    text-align: center;
+  }
+
+  .experiencia-limon .contenedor h1{
+    font-size: 32px;
+  }
+
+  .experiencia-call {
+    flex-direction: column;
+  }
+
+  /* SECTION NOVEDADES */
+  .contenedor-novedades {
+    grid-template-columns: 300px;
+  }
+
+  /* SECTION GRILLA */
+  .bandas {
+    grid-template-columns: 300px;
+  }
+
+  .contenedor-imagen, .contenedor-imagen img {
+    width: 300px;
+  }
+
+  .contenedor-imagen h3 {
+    font-size: 20px;
+  }
+
+  /* SECTION SPOTIFY  */
+  .spotify {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .spotify .texto h2 {
+    font-size: 26px;
+    margin: 10px;
+  }
+  .spotify .texto p {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .spotify-call {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .spotify-call img {
+    width: 50px;
+    height: auto;
+  }
+
+  /* SECTION INFO UTIL */
+
+  .contenedor-info {
+    grid-template-columns: 300px;
+  }
+
+  /* SECTION APP */
+
+  .app {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .app-texto h2 {
+    width: 300px;
+    font-size: 26px;
+    margin: 10px auto;
+  }
+  .app-texto p {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  /* SECTION CONTACTO */
+
+  .contacto h2 {
+    font-size: 30px;
+  }
+
+  .contacto form input, .contacto textarea {
+    width: 300px;
+  }
+
+  /* SECTION SOCIAL */
+  .social {
+    max-width: 400px;
+  }
+  .social a button {
+    width: 50px;
+    height: 50px;
+  }
 }
