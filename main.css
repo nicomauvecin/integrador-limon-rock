@@ -52,3 +52,7 @@ a {
   -ms-transition: opacity 1000ms;
   transition: opacity 1000ms;
 }
+
+.open {
+  display: none;
+}
