@@ -25,14 +25,11 @@
           <a href="#contacto"><li>CONTACTO</li></a>
         </ul>
         <div class="logo-nav">
-          <img
-            src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.6435-9/67433990_2375943575792641_7656160864503857152_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=0K8poAiMJS0AX-Q_U8U&_nc_ht=scontent.ftuc1-1.fna&oh=72aa7bcbd6e2e4346c42a87746a837d8&oe=60EE73D9"
-            alt=""
-          />
+          <img src="./assets/logo.jpg" alt="" />
         </div>
         <div class="sesion-nav">
-          <a href="#" class="iniciar-sesion">INICIAR SESIÓN</a>
-          <a href="#" class="registrarse">REGISTRARSE</a>
+          <a href="./login.html" class="iniciar-sesion">INICIAR SESIÓN</a>
+          <a href="./registro.html" class="registrarse">REGISTRARSE</a>
         </div>
         <div class="contenedor-toggle">
           <a href="#" class="toggle">☰</a>
@@ -49,12 +46,14 @@
             rock. ¡Anotate ahora!
           </p>
           <div class="experiencia-call">
-            <button class="btn btn-registrarse">
-              SUMATE A LA EXPERIENCIA LIMÓN
-            </button>
+            <a href="./registro.html">
+              <button class="btn btn-registrarse">
+                SUMATE A LA EXPERIENCIA LIMÓN
+              </button>
+            </a>
             <p>
               ¿YA SOS PARTE?
-              <a class="iniciar-sesion" href="#">INICIÁ SESIÓN</a>
+              <a class="iniciar-sesion" href="./login.html">INICIÁ SESIÓN</a>
             </p>
           </div>
         </div>
@@ -227,7 +226,7 @@
     </div>
     <script>
       const toggle = document.querySelector(".toggle");
-      const navul = document.querySelector('.menu-list');
+      const navul = document.querySelector(".menu-list");
 
       toggle.addEventListener("click", (e) => {
         e.preventDefault();
