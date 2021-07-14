@@ -462,7 +462,6 @@
 }
 
 @media (max-width: 1000px) {
-
   /* MENU */
 
   .menu {
@@ -513,7 +512,6 @@
 
   .experiencia-limon {
     flex-direction: column;
-    
   }
 
   .experiencia-limon .contenedor {
@@ -521,7 +519,7 @@
     text-align: center;
   }
 
-  .experiencia-limon .contenedor h1{
+  .experiencia-limon .contenedor h1 {
     font-size: 32px;
   }
 
@@ -539,7 +537,8 @@
     grid-template-columns: 300px;
   }
 
-  .contenedor-imagen, .contenedor-imagen img {
+  .contenedor-imagen,
+  .contenedor-imagen img {
     width: 300px;
   }
 
@@ -602,16 +601,20 @@
     font-size: 30px;
   }
 
-  .contacto form input, .contacto textarea {
+  .contacto form input,
+  .contacto textarea {
     width: 300px;
   }
 
   /* SECTION SOCIAL */
   .social {
-    max-width: 400px;
+    max-width: 350px;
+    margin: 15px auto;
+    align-items: center;
   }
   .social a button {
     width: 50px;
     height: 50px;
+    margin: 10px 0;
   }
 }
