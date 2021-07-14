@@ -28,7 +28,8 @@
 }
 
 .menu-list a:hover,
-.sesion-nav a:hover {
+.sesion-nav a:hover,
+.menu a:hover {
   color: #e70a4d;
   cursor: pointer;
 }
