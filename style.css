@@ -504,6 +504,11 @@
     grid-area: sesion;
   }
 
+  .sesion-nav a {
+    font-size: 12px;
+    margin-right: 5;
+  }
+
   /* SECTION EXPERIENCIA LIMÓN */
 
   .experiencia-limon {
