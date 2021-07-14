@@ -33,13 +33,13 @@ body {
   text-align: left;
 }
 
-.contenedor-login {
+.contenedor-login, .contenedor-registro {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.login {
+.login, .registro {
   width: 300px;
   background: #171717;
   display: flex;
@@ -52,12 +52,12 @@ body {
   margin: 30px;
 }
 
-.login h2 {
+.login h2, .registro h2 {
   font-size: 24px;
   margin: 10px;
 }
 
-.login input {
+.login input, .registro input {
   width: 100%;
   height: 50px;
   border: none;
@@ -68,26 +68,26 @@ body {
   font-size: 16px;
 }
 
-.login input:focus {
+.login input:focus, .registro input:focus {
   outline: none;
 }
 
-.login button {
+.login button, .registro button {
   width: 100%;
   margin: 20px;
   border-radius: 5px;
 }
 
-.login h3 a {
+.login h3 a, .registro h3 a {
   text-decoration: none;
   font-size: 14px;
 }
 
-.login h3 a:hover {
+.login h3 a:hover, .registro h3 a:hover {
   color: #e70a4d;
 }
 
-.contenido .registrarse {
+.contenido .registrarse, .contenido .iniciar-sesion {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,12 +95,12 @@ body {
   border-top: 1px solid white;
 }
 
-.registrarse h3 {
+.registrarse h3, .iniciar-sesion h3 {
   font-size: 14px;
   margin: 20px 0 10px 0;
 }
 
-.registrarse button {
+.registrarse button, .iniciar-sesion button {
   border-radius: 5px;
 }
 
