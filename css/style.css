@@ -303,7 +303,7 @@
 
 .contenedor-info {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: 400px 400px 400px;
   grid-gap: 15px;
   justify-content: center;
 }
@@ -542,17 +542,17 @@
 
   /* SECTION NOVEDADES */
   .contenedor-novedades {
-    grid-template-columns: 300px;
+    grid-template-columns: 400px;
   }
 
   /* SECTION GRILLA */
   .bandas {
-    grid-template-columns: 300px;
+    grid-template-columns: 400px;
   }
 
-  .contenedor-imagen,
-  .contenedor-imagen img {
-    width: 300px;
+  .bandas img {
+    width: 400px;
+    height: 300px;
   }
 
   .desvanecer:hover {
@@ -572,15 +572,16 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 10px;
   }
 
   .spotify .texto h2 {
-    font-size: 26px;
-    margin: 10px;
+    font-size: 50px;
+    margin: 10px 0;
   }
   .spotify .texto p {
-    font-size: 16px;
-    margin: 10px;
+    font-size: 24px;
+    margin: 0;
   }
 
   .spotify-call {
@@ -589,14 +590,13 @@
   }
 
   .spotify-call img {
-    width: 50px;
-    height: auto;
+    display: none;
   }
 
   /* SECTION INFO UTIL */
 
   .contenedor-info {
-    grid-template-columns: 300px;
+    grid-template-columns: 400px;
   }
 
   /* SECTION APP */
@@ -607,24 +607,22 @@
   }
 
   .app-texto h2 {
-    width: 300px;
-    font-size: 26px;
-    margin: 10px auto;
+    font-size: 40px;
   }
   .app-texto p {
-    font-size: 16px;
+    font-size: 24px;
     margin: 10px;
   }
 
   /* SECTION CONTACTO */
 
   .contacto h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .contacto form input,
   .contacto textarea {
-    width: 300px;
+    width: 400px;
   }
 
   /* SECTION SOCIAL */
