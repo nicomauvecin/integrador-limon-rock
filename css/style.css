@@ -373,7 +373,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 800px;
-  margin: 30px auto;
+  margin: 50px auto;
   border-bottom: 1px solid white;
 }
 
@@ -383,13 +383,14 @@
 
 .contacto h3 {
   font-size: 32px;
+  margin-bottom: 30px;
 }
 
 .contacto form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px;
+  margin: 20px;
 }
 
 .contacto form input {
@@ -427,7 +428,7 @@
 
 .social {
   max-width: 800px;
-  margin: 10px auto;
+  margin: 50px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -544,12 +545,12 @@
 
   /* SECTION NOVEDADES */
   .contenedor-novedades {
-    grid-template-columns: 400px;
+    grid-template-columns: 350px;
   }
 
   /* SECTION GRILLA */
   .bandas {
-    grid-template-columns: 400px;
+    grid-template-columns: 350px;
   }
 
   .bandas img {
@@ -598,7 +599,7 @@
   /* SECTION INFO UTIL */
 
   .contenedor-info {
-    grid-template-columns: 400px;
+    grid-template-columns: 350px;
   }
 
   /* SECTION APP */
