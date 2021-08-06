@@ -56,7 +56,7 @@
 
 .top {
   background: black;
-  background-image: url('./assets/portada.jpg');
+  background-image: url('../assets/portada.jpg');
   background-size: 1000px;
   background-position: center;
   background-repeat: no-repeat;
