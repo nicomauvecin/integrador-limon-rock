@@ -554,20 +554,12 @@
   }
 
   .bandas img {
-    width: 400px;
+    width: 350px;
     height: 300px;
   }
 
   .desvanecer:hover {
     opacity: 1;
-  }
-  .contenedor-imagen h3 {
-    font-size: 20px;
-    text-shadow: 0.1em 0.1em #333;
-  }
-
-  .contenedor-imagen > h3 {
-    z-index: 0;
   }
 
   /* SECTION SPOTIFY  */
